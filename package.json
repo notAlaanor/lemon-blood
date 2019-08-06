@@ -1,0 +1,34 @@
+{
+    "name": "lemon-blood",
+    "displayName": "lemon blood",
+    "description": "my color theme",
+    "publisher": "kepler0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/notAlaanor/lemon-blood.git"
+    },
+    "keywords": [
+        "dark"
+    ],
+    "icon": ".media/icon.png",
+    "galleryBanner": {
+        "color": "#191919",
+        "theme": "dark"
+    },
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.36.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "lemon blood",
+                "uiTheme": "vs-dark",
+                "path": "./themes/lemon blood-color-theme.json"
+            }
+        ]
+    }
+}
